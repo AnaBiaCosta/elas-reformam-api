@@ -1,0 +1,141 @@
+{
+  "services": [
+    {
+      "id": "c975f2e2-ce42-41a1-8edb-08d4e6182547",
+      "name": "Pintura",
+      "value": 1
+    },
+    {
+      "id": "5fe21918-3c19-4713-a5dd-0c7d2d67ab1d",
+      "name": "Reparos elétricos",
+      "value": 2
+    },
+    {
+      "id": "13d92330-a8b6-47cd-8dc9-f503d0446e2c",
+      "name": "Reparos hidráulicos",
+      "value": 3
+    },
+    {
+      "id": "9f1897c6-9909-48ec-84a2-86eb780dd4dc",
+      "name": "Montagem de móveis",
+      "value": 4
+    }
+  ],
+
+  "states": [
+    {
+      "id": "13305bf8-583d-4269-a069-2cae74799d43",
+      "name": "Bahia",
+      "slug": "bahia"
+    },
+    {
+      "id": "cc0233ed-e75b-4eb7-999b-209103432b03",
+      "name": "Minas Gerais",
+      "slug": "minas-gerais"
+    },
+    {
+      "id": "a70818fa-642b-4bba-9b28-042e655851a0",
+      "name": "Rio de Janeiro",
+      "slug": "rio-de-janeiro"
+    },
+    {
+      "id": "2827fe6d-6770-4d28-a952-089aa4e9e68a",
+      "name": "São Paulo",
+      "slug": "sao-paulo"
+    }
+  ],
+
+  "cities": [
+    {
+      "id": "c98f3e0c-ef57-4f89-8a8a-e2a619ce6a70",
+      "stateId": "13305bf8-583d-4269-a069-2cae74799d43",
+      "name": "Salvador",
+      "slug": "salvador"
+    },
+    {
+      "id": "2f1f261a-7af9-4110-be03-bf0b4b99af59",
+      "stateId": "13305bf8-583d-4269-a069-2cae74799d43",
+      "name": "Porto Seguro",
+      "slug": "porto-seguro"
+    },
+    {
+      "id": "22152973-dffe-4827-a191-47dd5f7366b5",
+      "stateId": "cc0233ed-e75b-4eb7-999b-209103432b03",
+      "name": "Belo Horizonte",
+      "slug": "belo-horizonte"
+    },
+    {
+      "id": "695a54c3-b5a3-463c-aa57-9339f660a98c",
+      "stateId": "cc0233ed-e75b-4eb7-999b-209103432b03",
+      "name": "Ouro Preto",
+      "slug": "ouro-preto"
+    },
+    {
+      "id": "6e12155a-daf3-4e8c-be8e-0cff27073f94",
+      "stateId": "a70818fa-642b-4bba-9b28-042e655851a0",
+      "name": "Angra dos Reis",
+      "slug": "angra-dos-reis"
+    },
+    {
+      "id": "1067c31b-44c5-45b6-a1c1-72fb2dfc96e6",
+      "stateId": "a70818fa-642b-4bba-9b28-042e655851a0",
+      "name": "Rio de Janeiro",
+      "slug": "rio-de-janeiro"
+    },
+    {
+      "id": "b0646ee4-9cb3-48ad-b29b-71933de0f288",
+      "stateId": "2827fe6d-6770-4d28-a952-089aa4e9e68a",
+      "name": "Itapecerica da Serra",
+      "slug": "itapecerica-da-serra"
+    },
+    {
+      "id": "ed5f7a0e-fcc4-4399-b0d5-988459acef3e",
+      "stateId": "2827fe6d-6770-4d28-a952-089aa4e9e68a",
+      "name": "São Paulo",
+      "slug": "sao-paulo"
+    }
+  ],
+
+  "professionals": [
+    {
+      "id": "3d34f1e2-e02a-42a4-af8b-6cfc93152685",
+      "avatar": "https://image.freepik.com/fotos-gratis/retrato-de-mulher-jovem-sorridente-closeup-ao-ar-livre_158595-4465.jpg",
+      "name": "Fernanda Caramico",
+      "state": "São Paulo",
+      "city": "São Paulo",
+      "service": 1,
+      "jobs": "234",
+      "value": "80"
+    },
+    {
+      "id": "e5b64204-35a6-4c66-825a-6af01d3a694d",
+      "avatar": "https://image.freepik.com/fotos-gratis/menina-bonita-e-timida-com-cabelo-preto-desgrenhado-e-pele-escura-usando-oculos-elegantes_273609-13866.jpg",
+      "name": "Camila Marques Machado",
+      "state": "São Paulo",
+      "city": "Itapecerica da Serra",
+      "service": 2,
+      "jobs": "214",
+      "value": "72"
+    },
+    {
+      "id": "389c7487-f51e-4b74-87d6-dc44252dd531",
+      "avatar": "https://image.freepik.com/fotos-gratis/mulher-asiatica-posando-com-pano_23-2149032717.jpg",
+      "name": "Adriana de Sousa Chikuji",
+      "state": "São Paulo",
+      "city": "São Paulo",
+      "service": 1,
+      "jobs": "712",
+      "value": "95"
+    },
+    {
+      "id": "a0d5b195-a865-4e1d-bafb-70e721a56222",
+      "avatar": "https://drive.google.com/file/d/1o5rdrW7I0OYg3jhgWPgfv6EVyYEQ6hbT/view?usp=sharing",
+      "name": "Helen Barbosa",
+      "state": "Minas Gerais",
+      "city": "Belo Horizonte",
+      "service": 4,
+      "jobs": "192",
+      "value": "100"
+    }
+  ]
+}
